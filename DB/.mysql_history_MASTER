@@ -1,0 +1,28 @@
+use mysql;
+update user set password=PASSWORD("Dds4d0s4DJd4x") where User='root';
+grant all privileges on *.* to 'root'@'%' identified by 'Dds4d0s4DJd4x';
+CREATE USER 'root' IDENTIFIED BY 'Dds4d0s4DJd4x';
+GRANT ALL PRIVILEGES ON *.* TO 'user';
+FLUSH PRIVILEGES;
+\q
+use exactarget;
+htop
+use exactarget;
+LOAD DATA LOCAL INFILE '/home/1Mgml.txt' INTO TABLE email FIELDS TERMINATED BY '\n' (@col3) set email_Email=@col3, id_List_Email = '886';
+LOAD DATA LOCAL INFILE '/home/1Mgml.txt' INTO TABLE email FIELDS TERMINATED BY '\n' (@col3) set email_Email=@col3, id_List_Email = '881';
+use exactarget;
+LOAD DATA LOCAL INFILE '/home/1Mgml.txt' INTO TABLE email FIELDS TERMINATED BY '\n' (@col3) set email_Email=@col3, id_List_Email = '881';
+LOAD DATA LOCAL INFILE '/home/gml1.txt' INTO TABLE email FIELDS TERMINATED BY '\n' (@col3) set email_Email=@col3, id_List_Email = '886';
+LOAD DATA LOCAL INFILE '/home/gml2.txt' INTO TABLE email FIELDS TERMINATED BY '\n' (@col3) set email_Email=@col3, id_List_Email = '891';
+LOAD DATA LOCAL INFILE '/home/gml3.txt' INTO TABLE email FIELDS TERMINATED BY '\n' (@col3) set email_Email=@col3, id_List_Email = '896';
+LOAD DATA LOCAL INFILE '/home/gml4.txt' INTO TABLE email FIELDS TERMINATED BY '\n' (@col3) set email_Email=@col3, id_List_Email = '901';
+show databases;
+use exactarget;
+show tables;
+show databases;
+use exactarget
+show tables,
+;
+show tables;
+use exactarget;
+LOAD DATA LOCAL INFILE '/home/data/dt5k.txt' INTO TABLE email FIELDS TERMINATED BY '\n' (@col3) set email_Email=@col3, id_List_Email = '906';

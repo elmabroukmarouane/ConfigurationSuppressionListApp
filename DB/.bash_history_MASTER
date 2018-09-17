@@ -1,0 +1,427 @@
+yum -y install mod_ssl.x86_64|tee -a /tmp/install_log 
+yum -y install ntp.x86_64|tee -a /tmp/install_log
+yum -y install gcc.x86_64|tee -a /tmp/install_log 
+yum -y install dos2unix.x86_64|tee -a /tmp/install_log 
+yum -y install sudo.x86_64 wget.x86_64|tee -a /tmp/install_log  
+yum -y install perl-ExtUtils-MakeMaker.x86_64 |tee -a /tmp/install_log
+yum -y install cronie.x86_64 cronie-anacron.x86_64  crontabs.noarch|tee -a /tmp/install_log 
+yum -y install iptraf.x86_64|tee -a /tmp/install_log 
+yum -y install nano.x86_64 telnet.x86_64 sudo.x86_64 lsof.x86_64 |tee -a /tmp/install_log 
+yum -y install postfix.xse86_64|tee -a /tmp/install_log 
+yum -y install sendmail.x86_64 sendmail-cf|tee -a /tmp/install_log
+yum -y install httpd.x86_64|tee -a /tmp/install_log 
+yum -y install php php-cli php-gd php-mysql php-mbstring
+rpm -Uvh http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+yum --enablerepo=epel -y install sshpass
+yum install gcc php-devel php-pear libssh2 libssh2-devel make
+pecl install -f ssh2
+echo extension=ssh2.so > /etc/php.d/ssh2.ini
+service httpd restart
+yum install -y vsftpd ftp
+sudo yum -y install tzdata
+tzselect
+nano /etc/sysconfig/clock
+ln -snf /usr/share/zoneinfo/Africa/Casablanca /etc/localtime 
+yum -y install ntp
+ntpd -g -q 
+date
+hwclock -wu
+nano /etc/sysconfig/network
+nano /etc/hostname
+sudo yum install mysql-server
+sudo /sbin/chkconfig --levels 235 mysqld on
+sudo service mysqld start
+mysql -u root -p
+rpm -iUvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+yum -y install phpmyadmin
+sudo iptables -I INPUT -p tcp --dport 3306 -j ACCEPT
+sudo service iptables save
+service httpd restart
+chmod -R 777 /var/www/exactarget/
+chmod -R 777 /var/www/Creatives
+chmod -R 777 /home
+sudo yum install php-imap
+sudo /etc/init.d/httpd graceful
+service httpd restart
+mysql -u root -p
+htop
+rtop
+htop
+mysql -u root -p
+htop
+Htop
+mysql -u root -pmysql -u root -p
+yum install -y htop
+service mysqld stop
+htop
+kill -9 4267
+service mysqld stop
+htop
+kill -9 4656
+service mysqld stop
+service mysqld start
+mysql -u root -p
+service mysqld restart
+service mysqld stop
+service mysqld start
+service httpd restart
+mysql -u root -p
+mysql -u root -p3.
+mysql -u root -p
+hostname
+logout
+cd /var/www/
+ll
+cd exactarget/
+ll
+cd Includes/
+ll
+car bdd.php 
+cat bdd.php 
+logout
+php -v
+logout
+nano /etc/yum.repos.d/remi.repo
+cd /etc/yum.repos.d
+ll
+php -v
+rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
+yum remove php-common -y
+yum install -y php56w php56w-opcache php56w-xml php56w-mcrypt php56w-gd php56w-devel php56w-mysql php56w-intl php56w-mbstring 
+service httpd restart
+nano /etc/hosts
+ifconfig
+cd /var/www/
+ll
+cd html/
+ll
+ll zoho/
+cd ..
+ll
+php -v
+yum install gcc php56w-devel php56w-pear libssh2 libssh2-devel make
+pecl install -f ssh2 
+echo extension=ssh2.so > /etc/php.d/ssh2.ini
+service httpd restart 
+php -m | grep ssh2 
+php -v
+mysql -u root -p
+php -v
+composer create-project --prefer-dist laravel/laravel blog "5.4.*"
+hostnamectl
+centos-release
+cat /etc/centos-release
+cat /etc/os-release
+lsb_release -a
+rpm -qa | grep -i centos-release
+yum update -y
+sudo yum install curl git php56w-cli.x86_64
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+composer create-project --prefer-dist laravel/laravel blog "5.4.*"
+ll
+mv blog/ html/
+ll
+ll html/
+cd html/
+rm -rf blog/
+ll
+yum install ph56w-pdo -y
+yum install php56w-pdo -y
+yum install php56w-openssl -y
+yum install php56w-tokenizer -y
+yum install php56w-xml -y
+cd ..
+ll
+unzip LaravelTestCentos.zip 
+yum install -y zip unzip
+unzip LaravelTestCentos.zip 
+ll
+ll LaravelTestCentos
+cd /etc/
+cd httpd/
+ll
+cd /var/www/
+ll
+ll exactarget/
+ll
+chmod 777 LaravelTestCentos
+ll
+chmod -R 777 LaravelTestCentos
+ll
+service httpd restart
+chown -R apache:apache LaravelTestCentos
+ll
+ll LaravelTestCentos
+rm -f LaravelTestCentos.zip 
+ll
+mv LaravelTestCentos/ html/
+ll
+ll html/
+mv html/LaravelTestCentos/ /var/www/
+llllllllllllllllllllllllllllllllllllllllllllllllll
+ll
+ll html/
+ll
+service httpd restart
+ll
+logout
+php -v
+logout
+cd /var/www/
+ll
+cd \
+mysql -u root -p
+logout
+cd /var/www/
+ll
+logout
+ll
+cd /var/www/
+ll
+cd App\ client/
+ll
+logout
+cd /var/www
+ll
+service httpd restart
+logout
+ll
+unzip ConfigurationSuppressionListApp_04_07_2018_11_50.zip 
+ll
+cd ConfigurationSuppressionListApp
+ll
+logout
+cd /var/www
+/home/
+cd /home/
+ll
+cd exactarget/
+ll
+cd offers/
+ll
+cd suppression/
+ll
+clear
+ll
+tail sp12-555-154-MD5.txt 
+rm -f sp12-555-154-MD5.txt 
+ll
+tail sp12-555-154-MD5.txt 
+tail sp12-554-84984-MD5.txt 
+rm -f sp12-554-84984-MD5.txt 
+ll
+tail sp12-554-84984-MD5.txt 
+clear
+ll
+tail sp12-554-84984-MD5.txt 
+rm -f sp12-554-84984-MD5.txt 
+ll
+clear
+ll
+tail sp12-554-84984-MD5.txt 
+rm -f sp12-554-84984-MD5.txt 
+ll
+clear
+ll
+tail sp12-554-84984-MD5.txt 
+clear
+ll
+rm -r sp12-55*
+ll
+tail sp12-554-84984-MD5.txt 
+rm -f sp12-554-84984-MD5.txt 
+ll
+tail sp12-554-84984-MD5.txt 
+tail sp12-555-154-MD5.txt 
+rm -f sp12-55*
+ll
+logout
+rpm -iUvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+yum -y update
+yum -y install phpmyadmin
+service httpd restart
+ll /var/www/
+ll /var/
+ll /var/www/html/
+cd /var/www/
+ll
+/usr/share
+cd /usr/
+ll
+cd share/
+ll
+cd phpMyAdmin/
+ll
+service httpd restart
+logout
+mysql -u root -p
+logout
+185.228.137.217
+zip -r all.zip /var/www
+cd var/www/ConfigurationSuppressionListApp
+cd ..
+gzip  /var/www/ConfigurationSuppressionListApp.ext
+gzip  /var/www/ConfigurationSuppressionListApp.extgzip ConfigurationSuppressionListApp.ext
+clear
+rpm -q zip
+yum install zip
+clear
+rpm -q zip
+clear
+zip -r ConfigurationSuppressionListApp.zip /var/www/ConfigurationSuppressionListApp
+clear
+$ zip -r xxxxxx.zip /var/www/ConfigurationSuppressionListApp
+zip -r xxxxxx.zip /var/www/ConfigurationSuppressionListApp
+zip -r arachidirham.zip /var/www/ConfigurationSuppressionListApp
+cleqr
+clear
+unzip ConfigurationSuppressionListApp.zip
+unzip ConfigurationSuppressionListApp.zip /var/www/ConfigurationSuppressionListApp
+unzip ConfigurationSuppressionListApp.zip -d /var/www/
+unzip ConfigurationSuppressionListApp.zip /var/www/
+unzip ConfigurationSuppressionListApp.zip
+cd /vqr
+cd /var
+cd /www
+cd /var/www
+unzip ConfigurationSuppressionListApp.zip
+unzip -r  ConfigurationSuppressionListApp.zip
+unzip -p  ConfigurationSuppressionListApp.zip
+cd root
+cd ..
+clear
+unzip /var/www/ConfigurationSuppressionListApp.zip -d /var/www
+unzip /var/www/ConfigurationSuppressionListApp.zip -d /var/ww
+clear
+unzip /var/www/ConfigurationSuppressionListApp -d /var/www
+zip -r wawawaw.zip /var/spool
+ipconfig
+clear
+zip -r home.zip /home
+cd /var/www/
+ll
+rm -rf ConfigurationSuppressionListApp/
+unzip ConfigurationSuppressionListApp.zip 
+ll
+chmod -R 777 ConfigurationSuppressionListApp/
+chown -R apache:apache ConfigurationSuppressionListApp/
+ll
+cd ConfigurationSuppressionListApp/
+ll
+logout
+/home/
+sudo /home/
+zip -r all.zip /var/www
+- zip -r NewAppss.zip /var/www/ConfigurationSuppressionListApp
+zip -r NewAppss.zip /var/www/ConfigurationSuppressionListApp
+zip -r List.zip //var/www/exactarget/List
+ll
+cd /var/www/
+logout
+cat /etc/selinux/config
+hostname
+logout
+ll /var/www/
+logout
+hostname
+logout
+mysql -u root -p
+cd /var/www/
+ll
+rm -rf ConfigurationSuppressionListApp_OLD/
+ll
+cd ConfigurationSuppressionListApp/public/config_files/
+ll
+rm -rf exactarget_mod/
+ll
+cd /var/www/
+ll
+chown -R apache:apache ConfigurationSuppressionListApp/
+ll
+cd ConfigurationSuppressionListApp/public/config_files/
+ll
+rm -rf exactarget
+ll
+rm -rf exactarget_mod/
+ll
+rm -rf exactarget_mod/
+ll
+chmod -R 777 exactarget/
+chown -R apache:apache exactarget/
+ll
+rm -rf exactarget
+rm -rf exactarget_mod/
+rm -f exactarget.zip 
+ll
+chmod -R 777 exactarget/
+chown -R apache:apache exactarget/
+ll
+rm -rf exactarget_mod/
+rm -f exactarget.zip 
+ll
+rm -f exactarget.zip 
+rm -rf exactarget_mod/
+ll
+cd //
+cd /var/www/ConfigurationSuppressionListApp/public/config_files/
+ll
+rm -rf exactarget_mod/
+ll
+rm -rf exactarget_mod/
+lll
+ll
+rm -rf exactarget_mod/
+ll
+rm -rf exactarget_mod/
+clear
+ll
+rm -rf exactarget_mod/
+ll
+clear
+rm -rf exactarget_mod/
+ll
+rm -f exactarget.zip 
+clear
+zip -r /var/www/ConfigurationSuppressionListApp/public/config_files/exactarget.zip /var/www/ConfigurationSuppressionListApp/public/config_files/exactarget_mod/
+ll
+clear
+ll
+pushd /var/www/ConfigurationSuppressionListApp/public/config_files
+zip -r /var/www/ConfigurationSuppressionListApp/public/config_files/exactarget.zip ./exactarget_mod/
+popd
+clear
+ll
+rm -f exactarget.zip 
+rm -rf exactarget_mod/
+ll
+rm -rf exactarget_mod/
+ll
+rm -rf exactarget_mod/
+ll
+rm -rf exactarget_mod/
+ll
+rm -rf exactarget_mod/
+rm -f exactarget.zip 
+ll
+rm -f exactarget.zip 
+rm -rf exactarget_mod/
+ll
+rm -rf exactarget_mod/
+rm -f exactarget.zip 
+ll
+rm -f exactarget.zip 
+rm -rf exactarget_mod/
+ll
+rm -f exactarget_mod/
+rm -rf exactarget_mod/
+pushd /var/www/ConfigurationSuppressionListApp/public/config_files
+cd \
+pushd /var/www/ConfigurationSuppressionListApp/public/config_files
+zip -r /var/www/ConfigurationSuppressionListApp/public/config_files/exactarget.zip ./exactarget_mod/
+rm -rf exactarget_mod/
+ll
+rm -f exactarget.zip 
+rm -rf exactarget_mod/
+ll
+logout

@@ -1,0 +1,8 @@
+Instruction :
+_____________
+
+- Créer une base de données vide avec un nom quelconque si vous voulez d'où ce nom va être utilisé par la connexion de l'application à MySQL depuis le fichier .env (par exemple : auth_config_app_db)
+- Importer la base de données des utilisateurs de la connexion local de l'application qui se trouve sur le dossier DB dans la racine de l'application
+- Changer l'adresse IP sur le fichier .env
+- Changer les informations de connexion aux bases de données (exactarget et auth_config_app_db) dans le fichier .env
+- Modifier le fichier info_connection_db.txt se trouvant sur le chemin ./public/config_files en partant de la racine de l'application par les informations de votre nouveau server en respectant la forme suivant (IP_MASTER;NOM_DB;USER_DB;PASS_DB [Voir le fichier inclus pour plus d'informations])
