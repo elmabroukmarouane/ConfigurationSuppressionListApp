@@ -1,6 +1,4 @@
-# ConfigurationSuppressionListApp
-
-Developed by Laravel 5.6 & Vue JS 2
+# ConfigurationSuppressionListApp Developed by Laravel 5.6 & Vue JS 2
 
 A [Laravel](http://laravel.com/), [Vue JS](https://vuejs.org/) and [Vuetify](https://vuetifyjs.com/) application for automatic configuration of servers.
 
