@@ -18,11 +18,10 @@ A [Laravel](http://laravel.com/), [Vue JS](https://vuejs.org/) and [Vuetify](htt
 ## Live Demo
 
 Here is the link for Live demo [Live Demo](http://elmabroukmarouane.pw/ConfigSupApp)
+  
+## Accounts :
 
-- Account :
-  Super Administrator :
-  Email : [super_admin@mail.com](super_admin@mail.com)
-  Password : 123456
+-   Super Administrator : Email : [super_admin@mail.com](super_admin@mail.com) Password : 123456
 
 ## Contact :
 
